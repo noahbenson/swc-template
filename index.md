@@ -121,7 +121,7 @@ header.  You can delete it if you do not want this section to appear.
     {% if page.waitlist %}
     If you wish to take a future workshop with us, you may add yourself to <a href="{{ page.waitlist }}">this waitlist</a>. Anyone on the waitlist is given an opportunity to register for the next workshop ahead of the its general registration period.
     {% else %}
-    Please contact <a href="{{ page.contact_email[0] }}">the workshop organizers</a> to inquire about future workshops.
+    Please contact <a href="mailto:{{ page.contact_email[0] }}">the workshop organizers</a> to inquire about future workshops.
     {% endif %}
   </div>
 </div>
