@@ -131,9 +131,9 @@ header.  You can delete it if you do not want this section to appear.
   <h2 id="registration">Registration Information</h2>
   <ul>
     <li>In order to register for the workshop, you must first follow the <a href="#setup">setup instructions</a>, below. You must install all four tools: <a href="#the-bash-shell">the Bash Shell</a>, <a href="#git-1">Git</a>, a <a href="#text-editor">Text Editor</a>, and 
-{% if page.flavor == "python" %}
+{% if site.flavor == "python" %}
     <a href="#python-1">Python</a>.
-{% elsif page.flavor == "r" %}
+{% elsif site.flavor == "r" %}
     <a href="#r-1">R</a>.
 {% else %}
     either <a href="#python-1">Python</a> or <a href="#r-1">R</a>, depending on which track you choose.
